@@ -4,7 +4,7 @@ export const experiences = [
   {
     icon: <Keyboard size={50} />,
     title: "Frontend Developer",
-    year: "2020 - Present",
+    year: "2022 - Present",
     description: "Building modern web using Next.js and TailwindCSS",
   },
   {
@@ -17,7 +17,7 @@ export const experiences = [
   {
     icon: <Settings size={50} />,
     title: "IT Support",
-    year: "2015 - Present",
+    year: "2014 - Present",
     description:
       "Installing, maintaining, and repairing various types of equipment and technical systems.",
   },
