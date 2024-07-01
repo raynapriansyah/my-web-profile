@@ -13,8 +13,8 @@ export default function AboutPage() {
       </section>
       <section className="text-center text-xl">
         <h1>
-          Frontend developer committed to crafting responsive and user friendly
-          web applications.
+          Frontenddd developer committed to crafting responsive and user
+          friendly web applications.
         </h1>
       </section>
       <div className="gap-x-8 flex items-center justify-center">
