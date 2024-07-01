@@ -22,7 +22,7 @@ export default function SkillsPage() {
           </ul>
         ))}
       </section>
-      <section className="p-10 mt-56 sm:mt-52">
+      <section className="p-10 mt-96 sm:mt-52">
         <FooterPage />
       </section>
     </div>
