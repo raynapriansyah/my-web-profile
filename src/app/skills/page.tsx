@@ -9,7 +9,7 @@ export default function SkillsPage() {
   return (
     <div className="container mt-20 sm:mt-60">
       <h1 className="text-center text-4xl font-bold mb-5">SKILLS</h1>
-      <section className="flex flex-wrap justify-center gap-2 sm:mr-32 sm:ml-32 sm:mt-20">
+      <section className="flex flex-wrap justify-center gap-2 animate-fadeinup sm:mr-32 sm:ml-32 sm:mt-20">
         {listItems.map((skill) => (
           <ul
             key={skill}

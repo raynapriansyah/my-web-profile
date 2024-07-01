@@ -9,7 +9,7 @@ export default function ExperiencePage() {
   return (
     <div className="container mt-20 md:mt-36 lg:mt-44 xl:mt-60 2xl:mt-60">
       <h1 className="text-center text-4xl font-bold mb-5">EXPERIENCE</h1>
-      <div className="flex flex-wrap justify-center gap-5">
+      <div className="flex flex-wrap justify-center gap-5 animate-fadeinup">
         {memoizedItems.map((item, index) => (
           <Card key={item.title + index}>
             <CardHeader>
