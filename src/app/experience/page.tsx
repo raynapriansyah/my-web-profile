@@ -29,18 +29,20 @@ export default function ExperiencePage() {
             <CardContent className="max-w-sm">{item.description}</CardContent>
             <section className="flex justify-center p-1 transition ease-in-out delay-50 bg-black-500 hover:-translate-y-1 hover:scale-110 hover:bg-black-500 duration-200">
               <Dialog>
-                <DialogTrigger>
+                <DialogTrigger asChild>
                   <Button>Readmore</Button>
                 </DialogTrigger>
                 <DialogContent>
                   <Command>
                     <CommandList>
-                      <CommandGroup heading="SKILLS">
+                      <CommandGroup heading="SKILLS" className="font-bold">
                         {item.skills.map((skill, index) => (
                           <CommandItem key={index}>
                             <div className="flex w-full items-center justify-between">
-                              <div>{skill.name}</div>
-                              <div>{skill.ability}</div>
+                              <div>
+                                {skill.name} ({skill.ability})
+                              </div>
+
                               <div>{skill.experience}</div>
                             </div>
                           </CommandItem>
@@ -54,7 +56,9 @@ export default function ExperiencePage() {
           </Card>
         ))}
       </div>
-      <FooterPage />
+      <section className="p-20 mt-24">
+        <FooterPage />
+      </section>
     </div>
   );
 }
