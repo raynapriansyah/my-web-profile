@@ -30,7 +30,7 @@ export default function ExperiencePage() {
             <section className="flex justify-center p-1 transition ease-in-out delay-50 bg-black-500 hover:-translate-y-1 hover:scale-110 hover:bg-black-500 duration-200">
               <Dialog>
                 <DialogTrigger>
-                  <Button>Readmorsasase</Button>
+                  <Button>Readmore</Button>
                 </DialogTrigger>
                 <DialogContent>
                   <Command>
