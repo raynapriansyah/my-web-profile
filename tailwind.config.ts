@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss"
-import { fontFamily } from 'tailwindcss/defaultTheme'
 
 const config = {
   darkMode: ["class"],
@@ -19,9 +18,6 @@ const config = {
       },
     },
     extend: {
-      fontFamily: {
-        sans: ["var(--font-inter)"]
-      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -71,17 +67,8 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        "fade-in-up": {
-        "0%": {
-          opacity: "0",
-          transform: "translate3d(0, 100%, 0)",},
-        "100%": {
-          opacity: "1",
-          transform: "translate3d(0, 0, 0)",},
-        },
       },
       animation: {
-        fadeinup: 'fade-in-up 1.5s 1',
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },

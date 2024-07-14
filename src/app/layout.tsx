@@ -8,7 +8,7 @@ import { Header } from "./header";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Profile | Ryan Apriansyah",
+  title: "Ryan Apriansyah",
   description: "this is my web profile",
 };
 
