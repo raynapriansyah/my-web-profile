@@ -54,7 +54,10 @@ export const portfolio = [
       </Link>
     ),
     demo: (
-      <Link href="" className={buttonVariants({ className: "rounded-2xl" })}>
+      <Link
+        href="https://mt-attaawun.vercel.app"
+        className={buttonVariants({ className: "rounded-2xl" })}
+      >
         <section className="flex items-center gap-2">
           <Eye /> Preview
         </section>

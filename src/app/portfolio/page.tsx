@@ -26,8 +26,12 @@ export default function PortfolioPage() {
               <CardDescription>{item.description}</CardDescription>
             </div>
             <CardFooter className="flex justify-center items-center gap-12 py-4">
-              {item.code}
-              {item.demo}
+              <section className="hover:-translate-y-1 hover:scale-110 hover:bg-black-500 duration-200">
+                {item.code}
+              </section>
+              <section className="hover:-translate-y-1 hover:scale-110 hover:bg-black-500 duration-200">
+                {item.demo}
+              </section>
             </CardFooter>
           </Card>
         ))}
