@@ -4,7 +4,7 @@ import { ModeToggle } from "~/components/mode-toggle";
 const navItems = [
   { name: "About", href: "/" },
   { name: "Experience", href: "/experience" },
-  { name: "Skills", href: "/skills" },
+  { name: "Portfolio", href: "/portfolio" },
 ];
 
 export function Header() {

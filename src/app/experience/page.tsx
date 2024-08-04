@@ -1,7 +1,6 @@
 import { useMemo } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
 import { experiences } from "~/data/experiences";
-import FooterPage from "../footer/page";
 import { Button } from "~/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "~/components/ui/dialog";
 import {
@@ -56,9 +55,6 @@ export default function ExperiencePage() {
           </Card>
         ))}
       </div>
-      <section className="p-20 mt-24">
-        <FooterPage />
-      </section>
     </div>
   );
 }

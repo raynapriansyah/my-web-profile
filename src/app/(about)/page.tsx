@@ -2,7 +2,6 @@ import { Tooltip } from "@nextui-org/tooltip";
 import { Download, Github, Instagram, Linkedin, Music2 } from "lucide-react";
 import Link from "next/link";
 import { buttonVariants } from "~/components/ui/button";
-import FooterPage from "../footer/page";
 
 export default function AboutPage() {
   return (
@@ -61,9 +60,6 @@ export default function AboutPage() {
           </Link>
         </div>
       </div>
-      <section className="p-20 mt-20">
-        <FooterPage />
-      </section>
     </div>
   );
 }
