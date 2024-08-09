@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Thumbnail_1 from "/public/image/thumbnail-01.png";
 import Thumbnail_2 from "/public/image/thumbnail-02.png";
+import Thumbnail_3 from "/public/image/thumbnail-03.png";
 import { Eye, Github } from "lucide-react";
 import { buttonVariants } from "~/components/ui/button";
 
@@ -56,6 +57,35 @@ export const portfolio = [
     demo: (
       <Link
         href="https://mt-attaawun.vercel.app"
+        className={buttonVariants({ className: "rounded-2xl" })}
+      >
+        <section className="flex items-center gap-2">
+          <Eye /> Preview
+        </section>
+      </Link>
+    ),
+  },
+  {
+    title: "Coffee Section",
+    image: (
+      <Image className="w-full rounded-sm" src={Thumbnail_3} alt="thumbnail" />
+    ),
+
+    description:
+      "Project Website Coffee Shop || Nextjs, TailwindCSS, Shadcn/ui",
+    code: (
+      <Link
+        href="https://github.com/raynapriansyah/coffee-shop"
+        className={buttonVariants({ className: "rounded-2xl" })}
+      >
+        <section className="flex items-center gap-2">
+          <Github /> Code
+        </section>
+      </Link>
+    ),
+    demo: (
+      <Link
+        href="https://coffee-section.vercel.app"
         className={buttonVariants({ className: "rounded-2xl" })}
       >
         <section className="flex items-center gap-2">

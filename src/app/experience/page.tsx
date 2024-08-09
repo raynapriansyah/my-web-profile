@@ -8,7 +8,6 @@ import {
   CommandGroup,
   CommandItem,
   CommandList,
-  CommandSeparator,
 } from "~/components/ui/command";
 
 export default function ExperiencePage() {
