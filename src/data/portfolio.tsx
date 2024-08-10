@@ -72,7 +72,7 @@ export const portfolio = [
     ),
 
     description:
-      "Project Website Coffee Shop || Nextjs, TailwindCSS, Shadcn/ui",
+      "Template Website Coffee Shop || Nextjs, TailwindCSS, Shadcn/ui",
     code: (
       <Link
         href="https://github.com/raynapriansyah/coffee-shop"
