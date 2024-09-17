@@ -27,7 +27,7 @@ export const portfolio = [
     ),
     demo: (
       <Link
-        href="luke-skywalker.vercel.app"
+        href="https://luke-skywalker.vercel.app"
         className={buttonVariants({ className: "rounded-2xl" })}
       >
         <section className="flex items-center gap-2">
