@@ -20,7 +20,7 @@ export default function AboutPage() {
       </section>
       <div className="gap-x-8 flex items-center justify-center animate-fadeinup">
         <Link
-          href="https://drive.google.com/uc?export=download&id=1waly2ePpWQilSCilBl0iTJ3sEFkGxB_d"
+          href="https://drive.google.com/uc?export=download&id=1_y9FNWOtuhEQxsnT4CFzSqV902dHEgQ7"
           className={buttonVariants({ className: "rounded-2xl" })}
         >
           <Download size={20} className="mr-2" /> <b>Resume</b>
