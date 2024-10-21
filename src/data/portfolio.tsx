@@ -5,10 +5,37 @@ import Thumbnail_2 from "/public/image/thumbnail-02.png";
 import Thumbnail_3 from "/public/image/thumbnail-03.png";
 import Thumbnail_4 from "/public/image/thumbnail-04.png";
 import Thumbnail_5 from "/public/image/thumbnail-05.png";
+import Thumbnail_6 from "/public/image/thumbnail-06.png";
 import { Eye, Github } from "lucide-react";
 import { buttonVariants } from "~/components/ui/button";
 
 export const portfolio = [
+  {
+    title: "Mine E-commerce",
+    image: (
+      <Image className="w-full rounded-sm" src={Thumbnail_6} alt="thumbnail" />
+    ),
+
+    description:
+      "Build Project Mini E-commerce using Next.js and fetching API from fake store API",
+    code: (
+      <Link
+        href="https://github.com/raynapriansyah/mini-ecommerce"
+        className={buttonVariants({ className: "rounded-2xl" })}
+      >
+        <section className="flex items-center gap-2">
+          <Github /> Code
+        </section>
+      </Link>
+    ),
+    demo: (
+      <Link href="#" className={buttonVariants({ className: "rounded-2xl" })}>
+        <section className="flex items-center gap-2">
+          <Eye /> Preview
+        </section>
+      </Link>
+    ),
+  },
   {
     title: "Product",
     image: (
